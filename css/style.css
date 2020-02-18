@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+}
+
+.header {
+  background-color: black;
+  width: 100%;
+  height:10vh;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+
+.logo {
+  color: red;
+  font-size: 2em;
+  font-family: cursive;
+}
+
+a {
+  text-decoration: none;
+  font-size: 2em;
+  font-family: sans-serif;
+  color: rgb(131, 136, 141);
+}
+
+a:hover {
+  color: wheat;
+}
+
+.buy {
+  border: 1px solid gold;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: black;
+  width: 100%;
+  height:10vh;
+
+  position: fixed;
+  top: 90%;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+}
+
+footer a {
+  text-decoration: none;
+  font-size: 1.5em;
+  font-family: sans-serif;
+  color: rgb(131, 136, 141);
+  margin-left: 2.5em;
+}
+
+footer a:hover {
+  color: wheat;
+}
+
+footer .copy {
+  position: fixed;
+  top: 93%;
+  left: 80%;
+}
+
+input[type="text"], button {
+  padding: 4px;
+  border-radius: 3px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: 900;
+}
+
+
+
+.content {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1.5rem;
+}
+
+
+img {
+  width: 100%;
+  height: 300px;
+}
+
+.card {
+  width: 100%;
+  max-width: 35rem;
+  background-color: #fff;
+  padding: 2.5rem;
+  box-shadow: 1px 1px 1rem rgba(0, 0, 0, .1);
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.card-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 98, 225, .9);
+  height: 100%;
+  color: rgba(255, 255, 255, .8);
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 5rem;
+  
+  transform: translate(35rem, 0);
+  
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  transition: all .9s cubic-bezier(.68, -0.5, 0.265, 1.55);
+}
+
+p {
+  margin-bottom: 1rem;
+}
+.card:hover .card-info {
+  transform: translate(0,0);
+  border-radius: initial;
+  outline: 0.5rem solid rgba(255, 255, 255, .3);
+  outline-offset: -1.5rem;
+}
+
+.anime-name {
+  font-size: 2.3rem;
+}
+
+.description {
+  font-size: 1.3rem;
+}
+
+.price {
+  font-size: 1.5rem;
+  color: red;
+  opacity: .8;
+}
+
+
+.cta {
+  text-decoration: none;
+  color: rgba(255, 255, 255, .8);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  border: 2px solid rgba(255, 255, 255, .5);
+  padding: 1rem 0;
+  transition: transform .5s;
+}
+
+.cta:hover {
+  transform: translateY(-3px);
+} */
+
